@@ -33,13 +33,13 @@ local palette = {
 
 M.base_30 = {
   white         = palette.text,
-  darker_black  = palette.mantle,
-  black         = palette.base, --  nvim bg
-  black2        = "#252434",
+  darker_black  = palette.crust,
+  black         = palette.mantle, --  nvim bg
+  black2        = palette.base,
   grey          = palette.surface0,
   grey_fg       = palette.surface1,
   grey_fg2      = palette.surface2,
-  light_grey    = palette.subtext0,
+  light_grey    = palette.overlay0,
   red           = palette.red,
   baby_pink     = palette.maroon,
   pink          = palette.pink,
